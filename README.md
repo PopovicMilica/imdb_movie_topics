@@ -11,11 +11,11 @@ In the second part, we use the movie plots to extract the latent movie topics us
 ## File description
 
 -  **movie_webscraping_utils.py**: Python file containing all the functions that we used in the Jupyter notebook `Scraping_movie_info_from_IMDb_and_Wikipedia_pages.ipynb` for webscraping movie data.
--  **text_preprocessing_utils.py**: Python file containing all the functions that we used in the first part of the Jupyter notebook `Movie_clustering_based_on_plot_summaries.ipynb` for preprocessing text data.
--  **topic_modeling_utils.py**: Python file containing all the functions that we used in the second part of the Jupyter notebook `Movie_clustering_based_on_plot_summaries.ipynb` to generate and visualize topic models.
+-  **text_preprocessing_utils.py**: Python file containing all the functions that we used in the first part of the Jupyter notebook `Movie_topic_modeling_based_on_plot_summaries.ipynb` for preprocessing text data.
+-  **topic_modeling_utils.py**: Python file containing all the functions that we used in the second part of the Jupyter notebook `Movie_topic_modeling_based_on_plot_summaries.ipynb` to generate and visualize topic models.
 -  **ldamallet.py**: Starting with Gensim version 4.0 a wrapper function `gensim.models.wrappers.ldamallet` was removed, so I copied the source code for that wrapper function directly from the last version of Gensim where it was supported (version 3.8.3) and included it directly in a project folder, so I can continue to use it without a need to downgrade my current version of the gensim library.
 -  **Scraping_movie_info_from_IMDb_and_Wikipedia_pages.ipynb**: Main Jupyter notebook for scraping movie data.
--  **Movie_clustering_based_on_plot_summaries.ipynb**: Main Jupyter notebook for building and visualizing topic models.
+-  **Movie_topic_modeling_based_on_plot_summaries.ipynb**: Main Jupyter notebook for building and visualizing topic models.
 -  **data/**: Folder containing movie data file `top_250_movies.csv`.
 -  **ngram_models/**: Folder containing ngram_models that are built when calling prepare_corpus function in `topic_modeling_utils.py`.
 
